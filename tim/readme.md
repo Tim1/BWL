@@ -8,18 +8,19 @@ Technologien und Zahlprozesse
 
 
 ### Bezahlmöglichkeiten
-**Web**
+#### Web
 - Überweisungen auf virtuelles Konto (payment) [3]
 - Email (Google wallet) [2]
 - Checkout via Provider (für Webshops), beispiel amazon payment [9]
 
-**Mobile**
+#### Mobile
 - premium SMS [4]
 - Direct mobile billing [5]
-- Mobile web payments (Desktop like)[6]
+- Mobile web payments (Desktop like) [6]
 - über NFC-Chip (google wallet) [1][7]
 - (QR-Code) [10]
 
+```
 [1] http://www.google.com/wallet/buy-in-store/
 [2] http://www.google.com/wallet/send-money/
 [3] http://paypal.com
@@ -30,3 +31,4 @@ Technologien und Zahlprozesse
 [8] http://en.wikipedia.org/wiki/Online_wallet
 [9] https://payments.amazon.com/sdui/sdui/business/cba
 [10]http://en.wikipedia.org/wiki/Mobile_phone_micropayment#QR_Code_Payments 
+```
