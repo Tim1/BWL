@@ -41,6 +41,7 @@ Wertschöpfungskette
 #### Porter [4]
 - primär- & sekundär(/support)-Aktivitäten
 - erstere erreichen Wertschöpfung, letztere können das nicht (können erstere aber in ihrer Wertschöpfung unterstützen)
+
 #### E-Commerce value-chain [5]
 - Primäraktivitäten
   - Information
