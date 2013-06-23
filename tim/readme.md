@@ -1,12 +1,12 @@
 Provider
 ========
 
-# Google Wallet [15]
-## Das Unternehmen
+## Google Wallet [15]
+### Das Unternehmen
 - Google Inc.
 - präsentiert May 26, 2011 -- gestartet (app) September 19, 2011
 
-## Geschäftsmodell
+### Geschäftsmodell
 **Funktionsweise**
 - Kreditkarten/Debitkarten hinterlegt in Account
 - Mobil (nur bei bestimmten Modellen möglich [17]) und im Web bezahlen möglich
@@ -21,13 +21,13 @@ Provider
 - über Gmail Geld versenden: für wallet-account kostenlos, sonst 2,9% abgabe
 
 
-## Strategie
+### Strategie
 - Zusammenlegung/Konzentation auf ein Dienst (Einstellung von Google-Checkout)
 - NFC ausbreiten, Android als Plattform (Android Secure element[13])
 - Android Market
 - Macht der Größe des Unternehmens nutzen 
 
-## Kernkompetenzen
+### Kernkompetenzen
 **Differenzierung**
 - NFC
 - Gmail geld per email
@@ -43,21 +43,21 @@ Provider
 	- nachprüfen der Bezahlungen im Web
 	- großer Anbieter --> viele Angebote (steigend)
 
-## Kennzahlen
+### Kennzahlen
 - 300,000+ Mastercard-paypass Stores
 - ca. 15 NFC-Handys und Tablets (Nexus, Samsung Galaxy S3-S4)[17]
 
 
 
 
-# Amazon Payments [16]
-## Das Unternehmen
+## Amazon Payments [16]
+### Das Unternehmen
 - Tochterfirma von Amazon.com 100%
 - 2007 gegründet
 - alle Zahlinformationen der Mutterfirma, gleiche "checkout experience" wie auf Amazon.com
 
 
-## Geschäftsmodell
+### Geschäftsmodell
 **Funktionsweise**
 - "checkout by Amazon" (CBA)
 	- direkt auf eigener Website einbinden nur Button (website nie verlassen)
@@ -74,12 +74,12 @@ Provider
 - besonderes für Non-profit: 2.2% + $0.30
 
 
-## Strategie
+### Strategie
 - große Kundenbasis von amazon.com nutzen (Bezahlinformationen + Adresse)
 - Vertrauen durch gleiche "User Experience"
 - leichtes einbinden in Website
 
-## Kernkompetenzen
+### Kernkompetenzen
 **Differenzierung**
 - Bezahlinformationen schon vorhanden
 - vertrauter Ablauf
@@ -91,7 +91,7 @@ Provider
 - Wenig aufwand
 - Sicherheit, da keine neuen Bezahldaten eingegen werden müssen
 
-## Kennzahlen
+### Kennzahlen
 ?
 
 
@@ -99,38 +99,38 @@ Provider
 Technologien und Zahlprozesse
 =============================
 
-# Einzahlung [8][.]
+## Einzahlung [8][.]
 - Kreditkarte, Debitkarte
 - Lastschrift
 - Pre-Paid (Guthabenbasiert - Konto aufladen)
 
 
-# Bezahlmöglichkeiten
-## Web
-### virtuelles Konto (payment) [3]
+## Bezahlmöglichkeiten
+### Web
+#### virtuelles Konto (payment) [3]
 - Überweisungen im Vorraus (Pre-Paid)
 - evtl. zustäzlich auch Lastschrift möglich
 - Überweisungen zwischen Usern möglich
 
-### Checkout via Provider [9]
+#### Checkout via Provider [9]
 - Webshop hat einen Provider z.B. Amazon Payments
 - Provider übernimmt den Bezahlvorgang
 - Provider hat Konto-/Kreditkartendaten hinterlegt 
 
-### Kreditkarte
+#### Kreditkarte
 - Website nimmt direkt Kreditkartendaten entgegen
 - kein Dritter beteiligt, aber Kunde muss Kartendaten wieder jemandem abgeben.
 
-### Email
+#### Email
 - Neuigkeit von Google wallet
 - über Gmail geld versenden [2]
 
 
-## Mobile [11]
-### Mobile web payments (Desktop like) [6]
+### Mobile [11]
+#### Mobile web payments (Desktop like) [6]
 - Einfache Adaption von ePayment auf mobile Geräte über mobiles Internet ist natürlich eine andere Möglichkeit, unterscheidet sich aber nicht wirklich vom oberen Punkt, daher nicht nochmals aufgeführt.
 
-### premium SMS [4]
+#### premium SMS [4]
 - SMS Code an kostenpflichtige Nummer --> Bezahlen über Telefonrechnung
 - in Asien und Europa verbreitet gewesen, wird nach und nach ersetzt
 - Beispiel: 
@@ -143,13 +143,13 @@ Technologien und Zahlprozesse
 		- Bezahlen per Lastschrift
 		
 		
-### Direct mobile billing [5]
+#### Direct mobile billing [5]
 - Bezahlen über Handyrechnung (Netzanbieter)
 - hohe Abgabenraten von 10-20%
 - Handynummer am auf Website angeben --> SMS mit Code --> diesen auf Website eingaben
 
 
-### über NFC-Chip (google wallet, Touch&Travel, girogo Sparkasse bis 20 €) [1][7]
+#### über NFC-Chip (google wallet, Touch&Travel, girogo Sparkasse bis 20 €) [1][7]
 - Reichweite von ca. 10 cm. (gewünscht)
 - deutscher Personalausweis 2011 ist NFC kompatibel
 - zustätzlich PIN eingeben als sicherheit
@@ -159,7 +159,7 @@ Technologien und Zahlprozesse
 	- über NFC lesbar oder interne API ansprechbar
 - Sicherheitsgefahr z.B. durch kontaktieren aush geringer Enfernung (Vorüberlaufende Personen)
 	
-### (QR-Code) [10]
+#### (QR-Code) [10]
 - keine Echte Zahlmethode
 - leitet auf Website, andere App um
 - Vorteil: einfach, da nur Barcode-Scannen (NFC o.Ä. nicht notwendig)
