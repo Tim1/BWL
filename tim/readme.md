@@ -1,3 +1,24 @@
+Provider
+========
+
+### Google Wallet [11]
+- Google Inc.
+- präsentiert May 26, 2011 -- gestartet (app) September 19, 2011
+- 300,000+ Mastercard-paypass Stores
+- keine Abgaben sondern durch Werbung
+- Sicherheit: User-Infos verschlüsselt, zusätzlicher PIN notwendig vor dem Bezahlen, muss PayPass-NFC-Reader berühren, über Website handy disable möglich
+- Sicherheits-Risiko: möglichkeit des eavesdropping bei Google Analytics
+
+- Kreditkarten/Debitkarten hinterlegt in Account
+- Mobil (nur bei bestimmten Modellen möglich [13]) und im Web bezahlen möglich
+- 24/7 fraud monitoring. Instant transaction notifications. 
+
+- über Gmail Geld versenden: für wallet-account kostenlos, sonst 2,9% abgabe
+
+### Amazon payments [12]
+
+
+
 Technologien und Zahlprozesse
 =============================
 
@@ -8,12 +29,12 @@ Technologien und Zahlprozesse
 
 
 ### Bezahlmöglichkeiten
-#### Web
+**Web**
 - Überweisungen auf virtuelles Konto (payment) [3]
 - Email (Google wallet) [2]
 - Checkout via Provider (für Webshops), beispiel amazon payment [9]
 
-#### Mobile
+**Mobile**
 - premium SMS [4]
 - Direct mobile billing [5]
 - Mobile web payments (Desktop like) [6]
@@ -21,6 +42,7 @@ Technologien und Zahlprozesse
 - (QR-Code) [10]
 
 ```
+[.] Quelle notwendig
 [1] http://www.google.com/wallet/buy-in-store/
 [2] http://www.google.com/wallet/send-money/
 [3] http://paypal.com
@@ -31,4 +53,8 @@ Technologien und Zahlprozesse
 [8] http://en.wikipedia.org/wiki/Online_wallet
 [9] https://payments.amazon.com/sdui/sdui/business/cba
 [10]http://en.wikipedia.org/wiki/Mobile_phone_micropayment#QR_Code_Payments 
+
+[11] http://www.google.com/wallet/index.html
+[12] https://payments.amazon.com/sdui/sdui/home
+[13] http://support.google.com/wallet/bin/answer.py?hl=en&answer=1347934
 ```
