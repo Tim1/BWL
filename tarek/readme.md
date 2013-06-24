@@ -1,3 +1,58 @@
+Provider
+========
+
+## Bitcoin [11]
+### ~~Das Unternehmen~~ Die Hintergründe
+- kein Unternehmen
+- Erfinder/Ersteller unbekannt (Pseudonym "Satoshi Nakamoto")
+- 1998: Konzept "crypto-currency" erstmals beschrieben von Wei Dai in der cypherpunks Mailing-List 
+- 2009: Bitcoin Spezifikation und Proof of Concept von "Satoshi Nakamoto" in einer Kryprographie Mailing-List veröffentlicht
+- 2012/09/27: gründung der Bitcoin Foundation (https://bitcoinfoundation.org/)
+
+### "Geschäftsmodell"
+**Funktionsweise**
+- Um Bitcoins zu erlangen müssen entweder neue errechnet oder bereits errechnete erworben werden
+
+- Sicherheit:
+  - Einzigartigkeit von Transaktionen gewährleistet durch die Verwendung einer Block Chain [12]
+  - Auf Identität der an einer Transaktion beteiligten Personen kann nicht anhand derer Bitcoin-Adresse geschlossen werden
+  - Für jede Transaktion kann eine neue Bitcoin-Adresse verwendet werden, um "Profiling" einer Bitcoin-Adresse durchzuführen
+- Sicherheits-Risiko:
+  - alle Bitcoin Transaktionen sind öffentlich und permanent im Netzwerk gespeichert
+  - Verlust des Walltes bedeutet umgehenden Verlust des Geldes
+
+
+**Gewinne erwirtschafen**
+- Freiwillige Transaktionsgebühr, an denjenigen, der einen 
+
+### Strategie
+- Zusammenlegung/Konzentation auf ein Dienst (Einstellung von Google-Checkout)
+- NFC ausbreiten, Android als Plattform (Android Secure element[13])
+- Android Market
+- Macht der Größe des Unternehmens nutzen 
+
+### Kernkompetenzen
+**Differenzierung**
+- NFC
+- Gmail geld per email
+**Diversifikation**
+- breit gefächertes Angebot (Gmail, Checkout, NFC)
+**Imitationsschutz**
+- im Web viel Konkurrenz daher:
+- neue Bereiche wie NFC und Gmail-Geld
+**Kundennutzen**
+- Wallet-Funktion: 
+	- mehrere Karten hinterlegen
+	- deaktivieren falls gestolen o.Ä.
+	- nachprüfen der Bezahlungen im Web
+	- großer Anbieter --> viele Angebote (steigend)
+
+### Kennzahlen
+- Täglicher Handel im Wert von Millionen USD verteilt auf ~50.000 Transaktionen
+- Wert der Bitcoins im Umlauf USD 1,3 Mrd.
+- Anzahl der Bitcoins fest limitiert auf 21 Mio.
+- Bitcoins sind teilbar auf bis zu 8 Dezimalstellen, daher ~21×10^14 Währungseinheiten.
+
 E-Payment generell
 ==================
 #### Grundlagen & Allgemeine Informationen [7]
@@ -91,4 +146,6 @@ idR eine von vieren
 [8] http://link.springer.com/chapter/10.1007/3-7908-1652-3_29
 [9] http://link.springer.com/chapter/10.1007/978-3-540-49645-8_13
 [10] http://link.springer.com/chapter/10.1007/0-387-29773-1_24
+[11] http://bitcoin.org/
+[12] https://en.bitcoin.it/wiki/Block_chain
 ```
