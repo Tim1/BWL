@@ -23,29 +23,16 @@ Provider
 
 
 **Gewinne erwirtschafen**
-- Freiwillige Transaktionsgebühr, an denjenigen, der einen 
+- Freiwillige Transaktionsgebühr (ausgezahlt an denjenigen, der die Transaktion bestätigt*)
+*Bestätigen von Transaktionen = aufwändig (Rechenzeit/-leistung), Transaktionsgebühr bietet anderen Nodes des Bitcoin-Netzwerks also Anreiz, die Transaktion zu bestätigen
 
 ### Strategie
-- Zusammenlegung/Konzentation auf ein Dienst (Einstellung von Google-Checkout)
-- NFC ausbreiten, Android als Plattform (Android Secure element[13])
-- Android Market
-- Macht der Größe des Unternehmens nutzen 
+- Schwer zu sagen da keine Person/Institution direkt dahinter
+- Strategie/Vision der Bitcoin Foundation: Standardisierung, Gewährleistung von Sicherheit, Promotion
 
 ### Kernkompetenzen
-**Differenzierung**
-- NFC
-- Gmail geld per email
-**Diversifikation**
-- breit gefächertes Angebot (Gmail, Checkout, NFC)
-**Imitationsschutz**
-- im Web viel Konkurrenz daher:
-- neue Bereiche wie NFC und Gmail-Geld
-**Kundennutzen**
-- Wallet-Funktion: 
-	- mehrere Karten hinterlegen
-	- deaktivieren falls gestolen o.Ä.
-	- nachprüfen der Bezahlungen im Web
-	- großer Anbieter --> viele Angebote (steigend)
+- Sehr hoher Grad an Anonymität
+- Sehr geringe Kosten für den "Dienst" an sich (Transaktionsgebühren theoretisch vollkommen freiwillig)
 
 ### Kennzahlen
 - Täglicher Handel im Wert von Millionen USD verteilt auf ~50.000 Transaktionen
