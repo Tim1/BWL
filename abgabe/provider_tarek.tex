@@ -1,46 +1,30 @@
 \subsection[Bitcoin]{Bitcoin\footnote{\url{http://bitcoin.org/}}}
 \subsubsection{Die Hintergründe}
-\begin{itemize}
-	\item kein Unternehmen, eher Konzept/Software
-	\item Erfinder/Ersteller unbekannt (Pseudonym "Satoshi Nakamoto")
-	\item 1998: Konzept "crypto-currency" erstmals beschrieben von Wei Dai in der cypherpunks Mailing-List
-	\item 2009: Bitcoin Spezifikation und Proof of Concept von "Satoshi Nakamoto" in einer Kryprographie Mailing-List veröffentlicht
-	\item 2012/09/27: gründung der Bitcoin Foundation\footnote{\url{https://bitcoinfoundation.org/}}
-\end{itemize}
+Bitcoin ist kein Unternehmen, das einen E-Payment-Dienst anbietet. Es handelt sich dabei stattdessen um ein Konzept einer Cryptocurrency bzw. eine Softwareimplementierung dieses Konzepts. Weiterhin ist festzuhalten, dass Bitcoin dezentral ist. Das bedeutet, dass keine zentrale Instanz benötigt wird, um den "Service" zu nutzen. Es handelt sich um ein Netz aus Knoten deren kollektiver Beitrag das Bitcoin-Netzwerk aufrechterhält und managed.\\
+\\
+Der Erfinder bzw. Ersteller von Bitcoin ist unbekannt. 1998 wurde das Konzepy einer Cryprocurrency erstmals von Wei Dai in der cypherpunks Mailing-List beschrieben. 2009 wurde die Bitcoin Spezifikation und ein Proof of Concept von einem Unbekannten unter dem Pseudonym \emph{Satoshi Nakamoto} in einer Kryptographie-Mailing-List veröffentlicht. Am 27.09.2012 wurde die \emph{Bitcoin Foundation}\footnote{\url{https://bitcoinfoundation.org/}} gegründet, deren ziel es ist Bitcoin weiter zu fördern und verbreiten.
+
 \subsubsection{Geschäftsmodell}
-\textbf{Funktionsweise}
-\begin{itemize}
-	\item Um Bitcoins zu erlangen müssen entweder neue errechnet oder bereits errechnete erworben werden
-	\item Sicherheit:
-	\begin{itemize}
-		\item Einzigartigkeit von Transaktionen gewährleistet durch die Verwendung einer Block Chain\footnote{\url{https://en.bitcoin.it/wiki/Block_chain}}
-		\item Auf Identität der an einer Transaktion beteiligten Personen kann nicht anhand derer Bitcoin-Adresse geschlossen werden
-		\item Für jede Transaktion kann eine neue Bitcoin-Adresse verwendet werden, um "Profiling" einer Bitcoin-Adresse durchzuführen
-	\end{itemize}
-	\item Sicherheits-Risiko:
-	\begin{itemize}
-		\item alle Bitcoin Transaktionen sind öffentlich und permanent im Netzwerk gespeichert
-		\item Verlust des Walltes bedeutet umgehenden Verlust des Geldes
-	\end{itemize}
-\end{itemize}
-\textbf{Gewinne erwirtschaften}
-\begin{itemize}
-	\item Freiwillige Transaktionsgebühr (ausgezahlt an denjenigen, der die Transaktion bestätigt\footnote{Bestätigen von Transaktionen = aufwändig (Rechenzeit/-leistung), Transaktionsgebühr bietet anderen Nodes des Bitcoin-Netzwerks also Anreiz, die Transaktion zu bestätigen})
-\end{itemize}
+\textbf{Funktionsweise}\\
+Um Bitcoins zu erlangen, müssen entweder neue erreichnet oder bereits errechnete erworben werden. Die konkrete Funktionsweise und kryptographischen Aspekte von Bitcoin genauer zu erläutern, würde den Rahmen dieser Arbeit sprengen. Daher sei schlicht festgehalten, dass Bitcoins über rechenintensive kryptographische Funktionen "gefunden" werden können. Dieser Prozess ist so ausgelegt, dass es mit der Zeit immer schwerer wird, neue Bitcoins zu finden, und dass die gesamte Zahl an findbaren Bitcoins finit ist. Weiterhin umfasst die Bitcoin-Implementierung Mechanismen, die das Suchen nach neuen Bitcoins ("Mining") auch zu späteren Zeitpunkten, wenn der Prozess an sich hinsichtlich dem Wert der gefundenen Bitcoins aufgrund der anfallenden Unterhaltskosten (Strom, Hardware, etc.) sich nicht mehr lohnt, weiterhin attraktiv machen (siehe später "Transaktionsgebühr").\\
+\\
+\textbf{Sicherheit}\\
+Die Einzigartigkeit von Bitcoin-Transaktionen ist gewährleistet durch die Verwendung einer Block Chain\footnote{\url{https://en.bitcoin.it/wiki/Block\_chain}}. Folglich ist ein mehrfaches Ausgeben von Bitcoins nicht möglich. Auf die Identität der an einer Transaktion beteiligten Personen kann nicht anhand derer Bitcoin-Adresse geschlossen werden. Außerdem kann für jede Transaktion eine neue Bitcoin-Adresse verwendet werden, um "Profiling" einer Bitcoin-Adresse durchzuführen. Ein solches Vorgehen wird Nutzern, welche um ihre Anonymität besorgt sind, auch empfohlen.\\
+Risiken hinsichtlich der Sicherheit lassen sich darin sehen, dass alle Bitcoin Transaktionen öffentlich und permanent im Netzwerk gespeichert sind. Dies kann dann zum Problem werden, wenn oben erwähnte Maßnahmen zum verhindern von Profiling nicht ergriffen wurden. Ein weiteres Sicherheitsrisiko besteht dadurch, dass ein Verlust des Walltes, einer einzelnen Datei, welche in welcher, einfach ausgedrückt, eine Person ihr Bitcoin-Guthaben vorliegen hat, unmittelbar einen Verlust des Guthabens beduetet.\\
+\\
+\textbf{Gewinne erwirtschaften}\\
+Da hinter Bitcoin keine Institution steht, gibt es auch keinen Dienstanbieter, welcher im Sinne der anderen in dieser Arbeit aufgeführen Provider Gewinne zu erwirtschaften versucht.\\
+Es gibt allerdings eine freiwillige Transaktionsgebühr, welche an denjenigen Nutzer ausgezahlt wird, der die Transaktion bestätigt. Dieses Bestätigen von Transaktionen (eine kryptographische Funktion, welche die Validität der Transaktion prüft diese bei Erfolg den andern Knoten des Netzwerkes gegenüber versichert) ist aufwändig (Rechenzeit/-leistung), weshalb durch die Gebühr ein Anreiz geschaffen wird, dies zu machen, da es für das Funktionieren des Bitcoin-Netzwerkes notwendig ist.
 
 \subsubsection{Strategie}
-\begin{itemize}
-	\item Schwer zu sagen da keine Person/Institution direkt dahinter
-	\item Strategie/Vision der Bitcoin Foundation: Standardisierung, Gewährleistung von Sicherheit, Promotion
-\end{itemize}
+Eine Stategie lässt sich für Bitcoin nicht direkt festhalten, da keine Person oder Institution direkt dahintersteckt. Es gibt, wie bereits erwähnt, allerdings eine \emph{Bitcoin Foundation}, deren Strategie bzw. Vision die Standardisierung, Gewährleistung von Sicherheit und weitere Promotion von Bitcoin ist.
 
 \subsubsection{Kernkompetenzen}
-\begin{itemize}
-	\item Sehr hoher Grad an Anonymität
-	\item Sehr geringe Kosten für den "Dienst" an sich (Transaktionsgebühren theoretisch vollkommen freiwillig)
-\end{itemize}
+Die wohl populärste und sicherlich auch eine der wichtigsten "Kompetenzen" von Bitcoin ist der sehr hohe Grad an Anonymität. Beachtet man die im Abschnitt Sicherheit erwähnten Maßnahmen, die zu beachten sind, um Profiling zu verhindern, ist es quasi nicht nachvollziehbar, zu welcher Realperson eine gegebene Transaktion gehört oder ob zu einer gegebenen Realperson irgendwelche Bitcoin-Transaktioinen gehören.\\
+Ein weiterer Vorteil von Bitcoin sind die sehr geringen Kosten für den "Dienst" an sich, da Transaktionsgebühren theoretisch vollkommen freiwillig sind. Verglichen mit anderen Diensten sind Transaktionen direkt von Person zu Person jedenfalls sehr günstig, auch wenn man freiwillige Gebühren zahlt.
 
 \subsubsection{Kennzahlen}
+Der Stand der folgenden Kennzahlen ist April 2013.
 \begin{itemize}
 	\item Täglicher Handel im Wert von Millionen USD verteilt auf ~50.000 Transaktionen
 	\item Wert der Bitcoins im Umlauf USD 1,3 Mrd.
